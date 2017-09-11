@@ -1,0 +1,12 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Lezen Legacy Data"
+    id="1c65e79a">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_4fd30e4d.xml#4fd30e4d"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_8060e601.xml#8060e601"/>
+</archimate:AccessRelationship>
