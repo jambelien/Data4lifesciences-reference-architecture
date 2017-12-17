@@ -1,0 +1,12 @@
+<archimate:RealizationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="T3"
+    id="6ce6bb67">
+  <source
+      xsi:type="archimate:Artifact"
+      href="Artifact_b7815b95.xml#b7815b95"/>
+  <target
+      xsi:type="archimate:Artifact"
+      href="Artifact_d6b056b7.xml#d6b056b7"/>
+</archimate:RealizationRelationship>
