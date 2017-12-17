@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Conversie zonder verlies"
-    id="11209dca-9c4d-4551-b614-68e1fe68c04c"
-    documentation="Controleer bij het converteren van dat er geen gegevens of interne metagegevens zijn verloren of veranderd?"/>
