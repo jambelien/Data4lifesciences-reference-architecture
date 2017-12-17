@@ -1,0 +1,5 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data manager"
+    id="65e4d831-ee1f-4189-a176-136311945c07"
+    documentation="deze rol opsplitsen in specifiekere rollen als data entry (is research verpleegkundige en die is er al), data monitor, etc.?"/>
