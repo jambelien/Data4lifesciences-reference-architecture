@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Research_and_ResearchData_lifecycle"
-    id="5650ef57-e0c4-4fcc-8736-bf7a4a319444">
+    id="5650ef57-e0c4-4fcc-8736-bf7a4a319444"
+    documentation="relation between two different processes (the research process itself and the data flow within research), although intermingled">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="a27122d1-76bb-460f-a8ab-9ecd56424500"
