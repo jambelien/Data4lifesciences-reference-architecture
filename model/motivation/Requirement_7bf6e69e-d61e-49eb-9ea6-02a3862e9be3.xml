@@ -1,4 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="GCP"
-    id="7bf6e69e-d61e-49eb-9ea6-02a3862e9be3"/>
+    id="7bf6e69e-d61e-49eb-9ea6-02a3862e9be3"
+    documentation="GCP: Good Clinical Practice&#xD;&#xA;zie o.a. http://ichgcp.net/"/>

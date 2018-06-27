@@ -1,4 +1,5 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="WBP"
-    id="dcdc4df2-5247-4e58-a632-79fabacee75e"/>
+    name="AVG (GDPR)"
+    id="dcdc4df2-5247-4e58-a632-79fabacee75e"
+    documentation="AVG: Algemene verordening gegevensbescherming  (Engelse naam GDPR: General Data Protection Regulation); WBP Wet bescherming persoonsgegevens geldt niet meer&#xD;&#xA;zie o.a.:&#xD;&#xA; https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-nieuwe-europese-privacywetgeving/algemene-informatie-avg&#xD;&#xA;"/>
