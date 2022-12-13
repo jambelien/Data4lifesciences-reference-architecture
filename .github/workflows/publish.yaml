@@ -1,0 +1,35 @@
+name: Render ArchiMate diagrams
+on: [push, pull_request]
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  render-diagrams:
+    name: 'Render ArchiMate diagrams'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+      - name: Run the build process with Docker
+        uses: docker://ghcr.io/nightscape/archimatetool:master
+        with:
+          args: --modelrepository.loadModel /github/workspace --html.createReport /github/workspace/exports
+      - name: Upload the rendered diagrams
+        uses: actions/upload-artifact@v2
+        with:
+          name: rendered-diagrams
+          path: exports
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: './exports/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
